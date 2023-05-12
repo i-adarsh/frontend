@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+}
+
+.abc {
+    font-family: 700;
+    color: yellowgreen;
+}
+
+
+.parent .abc {
+    font-family: 700;
+    color: lightcoral;
+}
+
+
+
+

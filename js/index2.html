@@ -7,6 +7,43 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="app">
+        <div class="try" id="b">
+            Hello how are you?
+            <div>
+                Hello, I'm good
+            </div>
+        </div>
+    </div>
+
+    <style>
+        body * {
+            margin: 10px;
+            border: 1px solid blue;
+        }
+    </style>
+
+    <form onclick="console.log('form')">Form
+        <div onclick="console.log('div')">div
+            <p onclick="console.log('p')">para
+            </p>
+        </div>
+    </form>
+
+    <div id="f" data-elm="f">
+        form
+        <div id="d" data-elm="d">
+            div
+            <p id="p" data-elm="p">p</p>
+        </div>
+    </div>
+
+    <div id="app2">
+        <div id="doubleHolder">
+            <button class="double">double</button>
+        </div>
+    </div>
+
     <script src="index2.js">
         
     </script>
